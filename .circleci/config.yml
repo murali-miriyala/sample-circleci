@@ -21,7 +21,7 @@ jobs:
 
        - run:
            name: npm test
-           command: sudo chmod +x ./gradlew
+           command: npm run test
        - store_artifacts:
            path: test-results.xml
           #  prefix: tests
