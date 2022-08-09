@@ -20,7 +20,7 @@ jobs:
             - ./node_modules
 
        - run:
-           name: test
+           name: npm test
            command: npm test
        - store_artifacts:
            path: test-results.xml
